@@ -2,18 +2,18 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 12,
-    "start": "2022-04-09T08:10:58.624Z",
-    "end": "2022-04-09T08:10:58.957Z",
-    "duration": 333
+    "failures": 11,
+    "start": "2022-04-09T08:13:08.324Z",
+    "end": "2022-04-09T08:13:08.612Z",
+    "duration": 288
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -22,15 +22,12 @@
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:16:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (node:internal/timers:466:21)",
@@ -110,7 +107,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:466:21)",
@@ -141,19 +138,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "should return an array of the last two drivers",
-      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: returnLastTwoDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:16:7)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "returnLastTwoDrivers is not defined"
-      }
-    },
-    {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (node:internal/timers:466:21)",
@@ -233,7 +220,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:466:21)",
@@ -265,6 +252,13 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
