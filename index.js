@@ -19,3 +19,4 @@ const fareTripler = (fare) => {
 function selectDifferentDrivers (drivers, returnDrivers){
     return returnDrivers(drivers);
 }
+console.log(selectDifferentDrivers(drivers, returnFirstTwoDrivers))
